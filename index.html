@@ -1,0 +1,289 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <div class="main">
+        <!--navigation-->
+        <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle"
+                        data-toggle="collapse" data-target="#myNav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <p> Zomato</p>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> SignUp</a></li>
+                            
+                        </ul>
+                    </div>
+                   
+                </div>
+            </nav>
+        </header>
+        
+    
+          <!--search start-->
+          <div id="search">
+            <div id="social">
+                
+                <a href="https://facebook.com/" target="_blank">
+                 <img src="https://i.ibb.co/JrKpFpr/facebook.png" alt="facebook" border="0" class="slogo"></a>
+                </a>
+                <a href="https://instagram.com/" target="_blank">
+                 <img src="https://i.ibb.co/8KpLKJM/instagram.png" alt="instagram" border="0"  class="slogo"></a>
+            </a>
+            <a href="https://youtube.com/" target="_blank">
+             <img src="https://i.ibb.co/QFmHsGS/youtube.png" alt="youtube" border="0" class="slogo" ></a>
+        </a>
+            </div>
+            <div class="logo">
+                <span>E!</span>
+            </div>
+            <div id="heading">
+                Find The Best Restaurants Near You
+            </div>
+            <div class="dropdown">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        
+                       <select class="form-control" id="city">
+                        <option>----PLEASE SELECT CITY----</option>
+                           <option>Delhi</option>
+                           <option>Mumbai</option>
+                           <option>NewYork</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                       
+                       <select class="form-control" id="Restaurants">
+                        <option>----PLEASE SELECT RESTAURANT----</option>
+                           <option>Delhi</option>
+                           <option>Mumbai</option>
+                           <option>NewYork</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--QUICK-->
+        <hr>
+            <div id="quicksearch ">
+               <span id="QuickHeading">
+                   
+                   Quick Search
+               </span>
+               <span id="QuickSubHeading">
+                Discover Restaurants By Meal
+
+            </span>
+
+            <div class="container-fluid">
+
+                <div class="row">
+                    <!-- breackfast -->
+                    <div class="col-sm-12 col-md-6 col-lg-4"> 
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="img/snak.jpg"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="listing/listing.html">Breakfast</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Breakfast.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- nightlife  -->
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="img/nightlife.jpg" />
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="listing/listing.html">Nightlife</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Nightlife.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Maharashtrian -->
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="img/maharashtrian.jpg"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="listing/listing.html">Marathi</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Maharashtrian.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Dinner -->
+                     <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="img/dinner.jpg" />
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="listing/listing.html">Dinner</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Dinner.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Drinks   -->
+                    <div class="col-sm-12 col-md-6 col-lg-4"> 
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="img/drinks.jpg"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="listing/listing.html">Drinks</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Drinks.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- South Indian -->
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="img/south.jpg"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="listing/listing.html">South Indian</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your South Indian.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+               
+                    
+                </div>
+                </div>
+               
+                
+                   
+
+
+
+                </div>
+            </div>
+           <!--slider-->
+           <div class="container">
+               <hr>
+               <h1 class="del">Deals Of The Day</h1>
+               <br>
+            <div id="myslider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myslider" data-slide-to="0" class="active"></li>
+                    <li data-target="#myslider" data-slide-to="1" ></li>
+                    <li data-target="#myslider" data-slide-to="2" ></li>
+                    <li data-target="#myslider" data-slide-to="3" ></li>
+                    <li data-target="#myslider" data-slide-to="4" ></li>
+                    <li data-target="#myslider" data-slide-to="5" ></li>
+                </ol>
+                <div class="carousel-inner">
+                   <div class="item active">
+                       <img src="img/foodwallpaper4.jpg" alt="a">
+                   </div>
+                   <div class="item">
+                    <img src="img/foodwallpaper2.jpg" alt="a">
+                </div>
+                <div class="item">
+                    <img src="img/foodwallpaper6.jpg" alt="a">
+                </div>
+                <div class="item">
+                    <img src="img/foodwallpaper7.jpg" alt="a">
+                </div>
+                <div class="item">
+                    <img src="img/foodwallpaper9.jpg" alt="a">
+
+                </div>
+                <div class="item">
+                    <img src="img/foodwallpaper8.jpg" alt="a">
+                </div>
+                </div>
+                <a class="left carousel-control" href="#myslider" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myslider" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+           </div>
+           <!---->
+           
+            <!--footer start-->
+        <footer>
+            <h1>&copy; Samarth Sarvadnya</h1>
+            <button type="button" class="btn btn-primary"
+            data-toggle="modal" data-target="#mymodal"> About</button>
+              
+            <div id="mymodal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">
+                                &times
+                            </button>
+                            <h4 class="modal-title">Details</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>I'm Full Stack Solution Architect The crossover between design and programming has always been of interest to me, I've been lucky enough to work alongside some talented teams on a number of high profile websites. I have a wide range of skills that include back-end development using open source technologies (NodeJs, Python), design (working closely with designers), front-end development (React, Angular9, ReactJs, HTML5, CSS3, Javascript, Responsive, UX), Server Administrator(AWS, GCP, Azure),database(MongoDB,cassendra,Mysql), CI/CD(Docker, kubernetes)</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </footer>
+        </div>
+    </div>
+</body>
+</html>
