@@ -21,6 +21,10 @@
 header{
   
 }
+.mydark{
+    background-color:black;
+    color:white  
+ }
 /*header*/
 #icon{
     float: left;
