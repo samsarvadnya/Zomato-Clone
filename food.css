@@ -25,6 +25,13 @@ header{
     background-color:black;
     color:white  
  }
+ #dark{
+     margin-top: 7px;
+     background-color:rgba(0, 255, 255, 0.418);
+     border: 2px solid black;
+     color: black;
+     font-weight: bold;
+ }
 /*header*/
 #icon{
     float: left;
@@ -215,6 +222,7 @@ select{
 }
 .del{
     text-align: center;
+    font-weight: bold;
 }
 .item > img{
     height: 630px !important;
@@ -233,7 +241,10 @@ footer{
     height: 90px;
     background-color: #d4101d;
     text-align: center;
+    color: #ffffff;
     margin-top: 2%;
+    font-weight: lighter;
+   
 }
 
 
